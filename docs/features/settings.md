@@ -64,6 +64,11 @@ When enabled, copying lyrics or translations replaces line breaks with spaces, s
 - Avoiding format confusion
 
 ### Deep Translation
+
+:::warning Deprecated
+This feature has been removed in v1.3 due to excessively long processing time.
+:::
+
 - Sets thinking budget for Gemini 2.5 Flash (1024 Tokens)
 - May provide higher quality, deeper translation
 - **Note**: Consumes more API quota, monitor usage if using paid API Key

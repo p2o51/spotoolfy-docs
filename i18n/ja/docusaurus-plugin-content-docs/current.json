@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "現在のバージョン",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "はじめに",
+    "description": "The label for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "Spotoolfy のインストール方法と初期設定について説明します。",
+    "description": "The generated-index page description for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Features & Design": {
+    "message": "機能とデザイン",
+    "description": "The label for category 'Features & Design' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Features & Design.link.generated-index.description": {
+    "message": "Spotoolfy のすべての機能とページを探索します。",
+    "description": "The generated-index page description for category 'Features & Design' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Advanced": {
+    "message": "上級者向け",
+    "description": "The label for category 'Advanced' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Advanced.link.generated-index.description": {
+    "message": "FAQ、ソースからのビルド、開発者リファレンスを含む上級者向けトピック。",
+    "description": "The generated-index page description for category 'Advanced' in sidebar 'tutorialSidebar'"
+  }
+}

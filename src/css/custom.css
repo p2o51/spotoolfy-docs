@@ -59,8 +59,9 @@
 }
 
 .menu__link--active {
-  background-color: var(--ifm-color-primary);
-  color: white;
+  background-color: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-darkest);
+  font-weight: 600;
 }
 
 [data-theme='dark'] .menu__link--active {

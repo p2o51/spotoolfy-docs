@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "当前版本",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started": {
+    "message": "上手指南",
+    "description": "The label for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Getting Started.link.generated-index.description": {
+    "message": "了解如何安装 Spotoolfy 并进行初始配置。",
+    "description": "The generated-index page description for category 'Getting Started' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Features & Design": {
+    "message": "功能与设计",
+    "description": "The label for category 'Features & Design' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Features & Design.link.generated-index.description": {
+    "message": "探索 Spotoolfy 的所有功能和页面。",
+    "description": "The generated-index page description for category 'Features & Design' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Advanced": {
+    "message": "进阶",
+    "description": "The label for category 'Advanced' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Advanced.link.generated-index.description": {
+    "message": "进阶内容包括常见问题、从源码构建和开发者参考。",
+    "description": "The generated-index page description for category 'Advanced' in sidebar 'tutorialSidebar'"
+  }
+}

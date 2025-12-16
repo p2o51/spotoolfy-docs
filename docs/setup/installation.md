@@ -48,12 +48,7 @@ You must join the Google Groups first to access the closed testing version.
 
 ## Release Notes
 
-### Chinese
-- Craft Documentation: https://51notepage.craft.me/playtest
-- Includes version changelog, usage guide, and FAQ
-
-### English
-- Craft Documentation: https://51notepage.craft.me/playtesten
+See the [Changelog](/docs/changelog) for version history and updates.
 
 ## Community
 
@@ -78,10 +73,6 @@ You must join the Google Groups first to access the closed testing version.
 ### Project Links
 - **GitHub Repository**: https://github.com/p2o51/spotoolfy_flutter
 - **Issues**: https://github.com/p2o51/spotoolfy_flutter/issues
-
-### Social Media
-- **Bilibili**: Search for related video tutorials
-- **YouTube**: Development progress and feature demos
 
 ## Reporting Issues
 

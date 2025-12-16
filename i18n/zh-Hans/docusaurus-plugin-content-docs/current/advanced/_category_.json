@@ -1,0 +1,8 @@
+{
+  "label": "进阶",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "进阶主题，包括常见问题、从源码构建和开发者参考。"
+  }
+}

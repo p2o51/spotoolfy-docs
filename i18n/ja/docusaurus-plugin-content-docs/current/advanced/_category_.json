@@ -1,0 +1,8 @@
+{
+  "label": "上級者向け",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "FAQ、ソースからのビルド、開発者リファレンスを含む上級者向けトピック。"
+  }
+}

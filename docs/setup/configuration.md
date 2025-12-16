@@ -6,6 +6,78 @@ sidebar_position: 2
 
 This guide will help you complete the initial setup for Spotoolfy.
 
+## Credentials
+
+Before using Spotoolfy, you need to set up Spotify Developer credentials. This is required because Spotoolfy uses the Spotify API for playback control.
+
+:::note Prerequisites
+- **Spotify Premium is required** for playback control features
+- A Spotify Developer account (free to create)
+:::
+
+### Setting Up Spotify Developer
+
+1. Visit [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
+2. Log in with your Spotify account
+3. Click **Create App**
+4. Fill in the following information:
+   - **App Name**: Any name (e.g., "My Spotoolfy")
+   - **App Description**: Any description
+   - **APIs used**: Select the following:
+     - Web API
+     - Android SDK
+     - iOS SDK
+     - Web Playback SDK
+
+### Platform Configuration
+
+After creating the app, you need to configure platform-specific settings based on how you installed Spotoolfy:
+
+#### iOS
+
+| Setting | Value |
+|---------|-------|
+| Redirect URIs | `spotoolfy://callback` |
+| iOS App Bundles | `com.gojyuplusone.spotoolfy.spotoolfyFlutter` |
+
+#### Android (Google Play Store)
+
+| Setting | Value |
+|---------|-------|
+| Redirect URIs | `spotoolfy://callback` |
+| Android Packages | `com.gojyuplusone.spotoolfy.spotoolfy_flutter` |
+| SHA1 Fingerprint | `D7:A1:25:6A:D6:C9:58:FC:95:A1:48:54:00:99:E2:99:ED:0C:A0:2E` |
+
+#### Android (APK v1.3.0+)
+
+| Setting | Value |
+|---------|-------|
+| Redirect URIs | `spotoolfy://callback` |
+| Android Packages | `com.gojyuplusone.spotoolfy.spotoolfy_flutter` |
+| SHA1 Fingerprint | `8D:BF:1F:07:DC:3D:96:5E:36:49:1E:00:B3:F7:45:B4:77:A2:93:C4` |
+
+#### Android (APK v1.1.0 - v1.2.x)
+
+| Setting | Value |
+|---------|-------|
+| Redirect URIs | `spotoolfy://callback` |
+| Android Packages | `com.gojyuplusone.spotoolfy.spotoolfy_flutter` |
+| SHA1 Fingerprint | `B4:DC:68:C9:BB:AF:5B:A3:AE:D0:2D:15:EF:6C:FC:6C:F4:CF:08:22` |
+
+#### Web
+
+| Setting | Value |
+|---------|-------|
+| Redirect URIs | `https://app.spotoolfy.gojyuplus.com/callback` |
+
+:::tip Multiple Platforms
+If you use Spotoolfy on multiple platforms, add all the corresponding Redirect URIs and platform configurations to the same app.
+:::
+
+:::caution Network Requirements
+Some regions may require appropriate network environment to access Spotify services.
+:::
+
 ## Basic Configuration
 
 ### 1. Log in to Spotify
@@ -82,6 +154,10 @@ Select your preferred translation style in settings:
 | **NetEase** | NetEase native translation | When existing translation is available |
 
 ### Deep Translation
+
+:::warning Deprecated
+This feature has been removed in v1.3 due to excessively long processing time.
+:::
 
 - Enable "Deep Translation" in settings
 - Sets a thinking budget for Gemini (1024 Tokens)

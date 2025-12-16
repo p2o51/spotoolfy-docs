@@ -11,9 +11,60 @@ The Now Playing page is the core interface of Spotoolfy, displaying the currentl
 ### Album Cover Area
 - Displays the album cover of the currently playing song
 - App theme dynamically changes based on cover colors
-- **Swipe left/right**: Skip to previous/next track
-- **Tap cover**: Adjust playback progress
-- **Long press cover**: Jump to current playback context (album/playlist)
+
+#### Cover Interactions
+
+**Single Tap**
+
+Toggle the Seek control overlay. Tapping the cover displays a semi-transparent overlay with three buttons:
+- **-10s (left)**: Rewind 10 seconds
+- **Info (center)**: Open AI song analysis page
+- **+10s (right)**: Fast forward 10 seconds
+
+**Long Press**
+
+Jump to Spotify app. Long pressing the cover will attempt to:
+1. Open the current playback context (album/playlist) in Spotify
+2. If no context available, open the current track in Spotify
+3. If both fail, directly open the Spotify app
+
+**Horizontal Swipe**
+
+Skip to previous/next track
+
+### AI Song Analysis
+
+Tapping the "Info" button on the cover overlay opens the song analysis page, displaying Gemini AI-generated song analysis.
+
+#### Analysis Content
+
+| Field | Description |
+|-------|-------------|
+| Creation Time | Historical context of when the song was created |
+| Creation Location | Recording/composition location |
+| Lyricist | Lyrics writer |
+| Composer | Music composer |
+| Producer | Music producer |
+| Song Analysis | AI-generated professional music review and background analysis (2-4 sentences) |
+
+#### Features
+- Uses Google Search Grounding to ensure accuracy
+- Results are cached locally to avoid repeated requests
+- Supports regeneration (refresh button in top right)
+- Content can be copied to clipboard
+
+#### Follow-up Questions
+The "Ask Gemini" floating button at the bottom allows you to:
+- Ask follow-up questions about the song
+- Have deeper discussions based on existing analysis context
+- Enjoy a conversational interaction experience
+
+#### Related Services
+
+| Service | Purpose |
+|---------|---------|
+| SongInfoService | Generate AI analysis for individual songs |
+| InsightsService | Generate music personality insights based on listening history |
 
 ### Song Information
 - **Tap song title**: Navigate to album page

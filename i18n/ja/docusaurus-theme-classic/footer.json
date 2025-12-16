@@ -1,0 +1,54 @@
+{
+  "link.title.Documentation": {
+    "message": "ドキュメント",
+    "description": "The title of the footer links column with title=Documentation in the footer"
+  },
+  "link.title.Download": {
+    "message": "ダウンロード",
+    "description": "The title of the footer links column with title=Download in the footer"
+  },
+  "link.title.Community": {
+    "message": "コミュニティ",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.item.label.Getting Started": {
+    "message": "はじめに",
+    "description": "The label of footer link with label=Getting Started linking to /docs"
+  },
+  "link.item.label.Installation": {
+    "message": "インストール",
+    "description": "The label of footer link with label=Installation linking to /docs/setup/installation"
+  },
+  "link.item.label.Features": {
+    "message": "機能",
+    "description": "The label of footer link with label=Features linking to /docs/features"
+  },
+  "link.item.label.Google Play": {
+    "message": "Google Play",
+    "description": "The label of footer link with label=Google Play linking to https://play.google.com/store/apps/details?id=com.gojyuplusone.spotoolfy.spotoolfy_flutter"
+  },
+  "link.item.label.TestFlight": {
+    "message": "TestFlight",
+    "description": "The label of footer link with label=TestFlight linking to https://testflight.apple.com/join/h2GR2Gbf"
+  },
+  "link.item.label.WebApp": {
+    "message": "Web版",
+    "description": "The label of footer link with label=WebApp linking to https://app.spotoolfy.gojyuplus.com"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/v56yDs6vRN"
+  },
+  "link.item.label.Google Groups": {
+    "message": "Google Groups",
+    "description": "The label of footer link with label=Google Groups linking to https://groups.google.com/g/spotoolfytest"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/p2o51/spotoolfy_flutter"
+  },
+  "copyright": {
+    "message": "© 2025 Spotoolfy. Flutter と Material Design 3 で構築。",
+    "description": "The footer copyright"
+  }
+}
