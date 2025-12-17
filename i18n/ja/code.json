@@ -325,5 +325,53 @@
   "theme.tags.tagsPageTitle": {
     "message": "タグ",
     "description": "The title of the tag list page"
+  },
+  "homepage.getStarted": {
+    "message": "はじめる"
+  },
+  "homepage.installationGuide": {
+    "message": "インストールガイド"
+  },
+  "homepage.title": {
+    "message": "ドキュメント"
+  },
+  "homepage.description": {
+    "message": "Spotoolfy - Spotify のための歌詞、ノート、AI インサイト、タイムマシン"
+  },
+  "homepage.feature.lyrics.title": {
+    "message": "歌詞と翻訳"
+  },
+  "homepage.feature.lyrics.description": {
+    "message": "複数のソースから歌詞を検索し、AI で 3 種類のスタイルで翻訳。"
+  },
+  "homepage.feature.notes.title": {
+    "message": "パーソナルノート"
+  },
+  "homepage.feature.notes.description": {
+    "message": "曲に評価や感想を追加。あなただけの音楽日記を作ろう。"
+  },
+  "homepage.feature.timeMachine.title": {
+    "message": "タイムマシン"
+  },
+  "homepage.feature.timeMachine.description": {
+    "message": "過去の同じ日に保存した曲を再発見。"
+  },
+  "homepage.feature.gemini.title": {
+    "message": "Gemini に聞く"
+  },
+  "homepage.feature.gemini.description": {
+    "message": "AI と曲や歌詞について会話し、音楽のインサイトを得る。"
+  },
+  "homepage.feature.theming.title": {
+    "message": "ダイナミックテーマ"
+  },
+  "homepage.feature.theming.description": {
+    "message": "アルバムアートから抽出した色による Material 3 デザイン。"
+  },
+  "homepage.feature.poster.title": {
+    "message": "ポスター生成"
+  },
+  "homepage.feature.poster.description": {
+    "message": "歌詞、ノート、アルバムの共有可能なポスターを作成。"
   }
 }

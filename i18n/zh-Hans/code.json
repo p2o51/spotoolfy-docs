@@ -325,5 +325,53 @@
   "theme.tags.tagsPageTitle": {
     "message": "标签",
     "description": "The title of the tag list page"
+  },
+  "homepage.getStarted": {
+    "message": "快速开始"
+  },
+  "homepage.installationGuide": {
+    "message": "安装指南"
+  },
+  "homepage.title": {
+    "message": "文档"
+  },
+  "homepage.description": {
+    "message": "Spotoolfy - 歌词、笔记、AI 洞察和时光机，为 Spotify 而生"
+  },
+  "homepage.feature.lyrics.title": {
+    "message": "歌词与翻译"
+  },
+  "homepage.feature.lyrics.description": {
+    "message": "从多个来源查找歌词，并使用 AI 以 3 种不同风格进行翻译。"
+  },
+  "homepage.feature.notes.title": {
+    "message": "个人笔记"
+  },
+  "homepage.feature.notes.description": {
+    "message": "为任何歌曲添加评分和想法，打造你的音乐日记。"
+  },
+  "homepage.feature.timeMachine.title": {
+    "message": "时光机"
+  },
+  "homepage.feature.timeMachine.description": {
+    "message": "重新发现往年今日收藏的歌曲。"
+  },
+  "homepage.feature.gemini.title": {
+    "message": "问问 Gemini"
+  },
+  "homepage.feature.gemini.description": {
+    "message": "与 AI 聊歌曲、聊歌词，获取音乐洞察。"
+  },
+  "homepage.feature.theming.title": {
+    "message": "动态主题"
+  },
+  "homepage.feature.theming.description": {
+    "message": "Material 3 设计，从专辑封面提取颜色。"
+  },
+  "homepage.feature.poster.title": {
+    "message": "海报生成"
+  },
+  "homepage.feature.poster.description": {
+    "message": "为歌词、笔记和专辑创建可分享的海报。"
   }
 }

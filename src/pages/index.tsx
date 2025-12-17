@@ -1,6 +1,7 @@
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import Translate, {translate} from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
@@ -25,13 +26,13 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs">
-            Get Started
+            <Translate id="homepage.getStarted">Get Started</Translate>
           </Link>
           <Link
             className="button button--outline button--lg"
             style={{marginLeft: '1rem', color: 'white', borderColor: 'white'}}
             to="/docs/setup/installation">
-            Installation Guide
+            <Translate id="homepage.installationGuide">Installation Guide</Translate>
           </Link>
         </div>
       </div>
@@ -39,7 +40,7 @@ function HomepageHeader() {
   );
 }
 
-function FeatureItem({title, description, icon}: {title: string; description: string; icon: string}) {
+function FeatureItem({title, description, icon}: {title: ReactNode; description: ReactNode; icon: string}) {
   return (
     <div className="col col--4">
       <div className="text--center padding-horiz--md" style={{marginBottom: '2rem'}}>
@@ -52,11 +53,10 @@ function FeatureItem({title, description, icon}: {title: string; description: st
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title="Documentation"
-      description="Spotoolfy - Lyrics, Notes, AI Insights, and Time Machine for Spotify">
+      title={translate({id: 'homepage.title', message: 'Documentation'})}
+      description={translate({id: 'homepage.description', message: 'Spotoolfy - Lyrics, Notes, AI Insights, and Time Machine for Spotify'})}>
       <HomepageHeader />
       <main>
         <section style={{padding: '4rem 0'}}>
@@ -64,35 +64,35 @@ export default function Home(): ReactNode {
             <div className="row">
               <FeatureItem
                 icon="🎵"
-                title="Lyrics & Translation"
-                description="Find lyrics from multiple sources and translate them with AI in 3 different styles."
+                title={<Translate id="homepage.feature.lyrics.title">Lyrics & Translation</Translate>}
+                description={<Translate id="homepage.feature.lyrics.description">Find lyrics from multiple sources and translate them with AI in 3 different styles.</Translate>}
               />
               <FeatureItem
                 icon="📝"
-                title="Personal Notes"
-                description="Add ratings and thoughts to any track. Build your own music journal."
+                title={<Translate id="homepage.feature.notes.title">Personal Notes</Translate>}
+                description={<Translate id="homepage.feature.notes.description">Add ratings and thoughts to any track. Build your own music journal.</Translate>}
               />
               <FeatureItem
                 icon="⏰"
-                title="Time Machine"
-                description="Rediscover songs you saved on this day in previous years."
+                title={<Translate id="homepage.feature.timeMachine.title">Time Machine</Translate>}
+                description={<Translate id="homepage.feature.timeMachine.description">Rediscover songs you saved on this day in previous years.</Translate>}
               />
             </div>
             <div className="row">
               <FeatureItem
                 icon="🤖"
-                title="Ask Gemini"
-                description="Chat with AI about songs, lyrics, and get music insights."
+                title={<Translate id="homepage.feature.gemini.title">Ask Gemini</Translate>}
+                description={<Translate id="homepage.feature.gemini.description">Chat with AI about songs, lyrics, and get music insights.</Translate>}
               />
               <FeatureItem
                 icon="🎨"
-                title="Dynamic Theming"
-                description="Material 3 design with colors extracted from album art."
+                title={<Translate id="homepage.feature.theming.title">Dynamic Theming</Translate>}
+                description={<Translate id="homepage.feature.theming.description">Material 3 design with colors extracted from album art.</Translate>}
               />
               <FeatureItem
                 icon="🖼️"
-                title="Poster Generation"
-                description="Create shareable posters for lyrics, notes, and albums."
+                title={<Translate id="homepage.feature.poster.title">Poster Generation</Translate>}
+                description={<Translate id="homepage.feature.poster.description">Create shareable posters for lyrics, notes, and albums.</Translate>}
               />
             </div>
           </div>
